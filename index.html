@@ -8,12 +8,14 @@
       
       
       
+        <link rel="canonical" href="https://dizvestnov.github.io/">
+      
       <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.4">
     
     
       
-        <title>LigaAmocrmTriggerDocs</title>
+        <title>amoCRM Triggers Docs</title>
       
     
     
@@ -21,10 +23,6 @@
       
         
         <link rel="stylesheet" href="assets/stylesheets/palette.cbb835fc.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#4cae4f">
         
       
       
@@ -40,6 +38,8 @@
       
     
     
+      <link rel="stylesheet" href="css/extra.css">
+    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -51,12 +51,16 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="orange">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="purple">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -64,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-liga-amocrm-trigger-docs" class="md-skip">
+        <a href="#amocrm" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -76,11 +80,9 @@
     
       
 
-  
-
-<header class="md-header md-header--lifted" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
-    <a href="." title="LigaAmocrmTriggerDocs" class="md-header__button md-logo" aria-label="LigaAmocrmTriggerDocs" data-md-component="logo">
+    <a href="." title="amoCRM Triggers Docs" class="md-header__button md-logo" aria-label="amoCRM Triggers Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -93,18 +95,40 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            LigaAmocrmTriggerDocs
+            amoCRM Triggers Docs
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to Liga AmoCrm Trigger Docs
+              Home
             
           </span>
         </div>
       </div>
     </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
     
     
     
@@ -142,13 +166,45 @@
 </div>
     
     
+      <div class="md-header__source">
+        <a href="https://github.com/dizvestnov" title="Перейти к репозиторию" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
   </nav>
   
+</header>
     
+    <div class="md-container" data-md-component="container">
       
+      
+        
+          
+            
 <nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="." class="md-tabs__link md-tabs__link--active">
+      Home
+    </a>
+  </li>
+
       
         
   
@@ -175,8 +231,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="section/" class="md-tabs__link">
-        Section
+      <a href="triggers/" class="md-tabs__link">
+        Настройки Виджета Триггеры
       </a>
     </li>
   
@@ -185,13 +241,7 @@
     </ul>
   </div>
 </nav>
-    
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -213,14 +263,26 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="LigaAmocrmTriggerDocs" class="md-nav__button md-logo" aria-label="LigaAmocrmTriggerDocs" data-md-component="logo">
+    <a href="." title="amoCRM Triggers Docs" class="md-nav__button md-logo" aria-label="amoCRM Triggers Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    LigaAmocrmTriggerDocs
+    amoCRM Triggers Docs
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dizvestnov" title="Перейти к репозиторию" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -230,40 +292,68 @@
 
   
   
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Основные термины
+  </a>
+  
+</li>
       
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Тестовое задание
+  </a>
+  
+</li>
       
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Подсказки
+  </a>
+  
+</li>
       
+    </ul>
+  
+</nav>
       
-        
-          
-            
-          
-        
-      
-      
-        
-        
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="getting-started/">Getting Startes</a>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="Getting Startes" data-md-level="1">
-        <label class="md-nav__title" for="__nav_1">
-          <span class="md-nav__icon md-icon"></span>
-          Getting Startes
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -292,14 +382,12 @@
         
           
         
-          
-        
       
       
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="section/">Section</a>
+          <a href="getting-started/">Getting Startes</a>
           
             <label for="__nav_2">
               <span class="md-nav__icon md-icon"></span>
@@ -307,10 +395,10 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Section" data-md-level="1">
+      <nav class="md-nav" aria-label="Getting Startes" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Section
+          Getting Startes
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -322,8 +410,8 @@
   
   
     <li class="md-nav__item">
-      <a href="section/page-1/" class="md-nav__link">
-        Section 1
+      <a href="getting-started/form/" class="md-nav__link">
+        Форама создания лида
       </a>
     </li>
   
@@ -336,8 +424,76 @@
   
   
     <li class="md-nav__item">
-      <a href="section/page-2/" class="md-nav__link">
-        Section 2
+      <a href="getting-started/task/" class="md-nav__link">
+        Задача Связаться с клиентом
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="triggers/">Настройки Виджета Триггеры</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Настройки Виджета Триггеры" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Настройки Виджета Триггеры
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="triggers/page-1/" class="md-nav__link">
+        Сценарии
       </a>
     </li>
   
@@ -350,8 +506,22 @@
   
   
     <li class="md-nav__item">
-      <a href="section/page-3/" class="md-nav__link">
-        Section 3
+      <a href="triggers/page-2/" class="md-nav__link">
+        Триггеры
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="triggers/page-3/" class="md-nav__link">
+        Переменные
       </a>
     </li>
   
@@ -378,21 +548,87 @@
                 
 
 
-<h1 id="welcome-to-liga-amocrm-trigger-docs">Welcome to Liga AmoCrm Trigger Docs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="amocrm">Настройка автоматизации в amoCRM используя виджет "Триггеры"</h1>
+<p>Аккаунт <a href="https://testligatrigger.amocrm.ru"><strong>amoCRM</strong></a><br />
+Инструкция по настройке виджета <a href="https://cmdf5.ru/manual/triggers#rec144780958"><strong>Триггеры</strong></a><br />
+<a href="https://cmdf5.ru/manual/vars"><strong>Шаблонизатор переменных</strong></a> для amoCRM</p>
+<h2 id="_1">Основные термины</h2>
+<p><a href="https://cmdf5.ru/manual/triggers#rec144618716"><strong>Сценарий</strong></a> - это основная сущность автоматизации, которая содержит в себе логику запуска триггеров. Сценарий может быть запущен по обширному списку действий, в том числе вручную.<br />
+<a href="https://cmdf5.ru/manual/triggers#rec146242970"><strong>Триггер</strong></a> - это конечный результат работы сценария, который собственно производит изменения в системе: создает сделку, ставит задачу, меняет поле и т.д.</p>
+<h2 id="_2">Тестовое задание</h2>
+<blockquote>
+<p>Тестовый аккаунт AmoCrm<br />
+Установить виджет "Триггеры"<br />
+Настроить две воронки, лиды и продажи (этапы не важны в тесте).</p>
+</blockquote>
+<p><code>Скринкаст, как это все работает, типа инструкция для вымышленных сотрудников</code><br />
+<code>На триггерах решить задачу</code></p>
+<p><em>Приходит заявка.</em><br />
+<em>В воронке лидов должна вставать задача на менеджера связаться с клиентом</em>, 3 возможных исхода:</p>
+<ol>
+<li>
+<p><strong>Договорились о встрече</strong></p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Сделка уходит в статус "Успешно реализовано"</li>
+<li>В поле сделки сохраняется ID сделки</li>
+<li>Создается копия сделки в воронки продажи.</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+</li>
+<li>
+<p><strong>Клиент отказался</strong></p>
+<ul>
+<li>Сделка переход в статус "Закрыто и не реализовано"</li>
+<li>Встает задача на <a href="#" title="можно меня добавить вторым пользователем, почта sxquer@gmail.com">второго человека</a></li>
+<li>Задача: проверить, что сделка закрыта верно.</li>
+</ul>
+</li>
+<li>
+<p><strong>Перезвонить позже</strong></p>
+<ul>
+<li>Встает та же задача, но через время.</li>
+<li>Каждый раз время перезвона увеличивается на полчаса, Первый раз задача встает через 30 минут, второй через 60 и так далее.</li>
+<li>При каждом запуске этого процесса в карточке увеличивается счетчик количества дозвонов.</li>
+</ul>
+</li>
+</ol>
+<h2 id="_3">Подсказки</h2>
+<p>Модификации даты и времени</p>
+<table>
+  <tbody>
+    <tr>
+        <td>Количество секунд, прошедших с начала Эпохи Unix (1 января 1970 00:00:00 GMT), можно использовать для расчета разницы между двумя датами, или двумя временными промежутками</td>
+        <td>{{date.now:df(U)}}</td>
+        <td>1540846800</td>
+    </tr>
+    <tr>
+        <td>Пример расчета разницы в днях между двумя датами в полях amoCRM (приводим обе даты в UNIX-time, вычисляем разницу в секундах с помощью функции CALC, результат переводим в дни разделив для этого на 86400, кол-во секунд в стуки).<br>1801342 - ID первого допполя сделки с датой.<br>1801338 - ID второго допполя сделки</td>
+        <td>{{(({{lead.cf(1801342):df(U)}}-{{lead.cf(1801338):df(U)}})/86400):calc}}</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>+7 дней от текущей даты (переводим дату в UNIX формат и прибавляем нужное кол-во секунд, возвращаем в обычный формат</td>
+        <td>{{({{date.now:df(U)}}+(7*86400)):calc:df(d\.m\.Y)}}</td>
+        <td>15.01.20</td>
+    </tr>
+    <tr>
+        <td>+7 дней от даты из поля (переводим в UNIX, прибавляем кол-во секунд за 7 дней)</td>
+        <td>{{({{lead.cf(609635):df(U)}}+(7*86400)):calc:df(d\.m\.Y)}}</td>
+        <td>15.01.20</td>
+    </tr>
+    <tr>
+        <td>+7 дней от даты, которая хранится в глобальной переменной</td>
+        <td>{{({nazvanie_peremennoy:df(U)}+(7*86400)):calc:df(d\.m\.Y)}}</td>
+        <td>15.01.20</td>
+    </tr>
+    <tr>
+        <td>Через месяц в этот же день, в это же время из даты в поле</td>
+        <td>{{lead.cf(609635):dm(d\.m\.Y H\:i\:s,next month)}}</td>
+        <td>15.06.2021 11:36:00 = 15.07.2021 11:36:00</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--Reference links in article-->
 
               
             </article>
@@ -408,6 +644,29 @@ docs/
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+    
+    <nav class="md-footer__inner md-grid" aria-label="Нижний колонтитул" >
+      
+      
+        
+        <a href="getting-started/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Установка виджета" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Вперед
+              </span>
+              Установка виджета
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -429,7 +688,7 @@ docs/
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.follow", "toc.integrate"], "search": "assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u043e\u0438\u0441\u043a", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version.title": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["content.tooltips", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.follow", "toc.integrate"], "search": "assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u043e\u0438\u0441\u043a", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version.title": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}}</script>
     
     
       <script src="assets/javascripts/bundle.f758a944.min.js"></script>

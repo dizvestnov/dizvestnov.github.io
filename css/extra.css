@@ -1,0 +1,9 @@
+h1 {
+  font-weight: 900!important;
+}
+
+img {
+  /* max-width: 85%!important; */
+  display: block;
+  margin: 0 auto;
+}
